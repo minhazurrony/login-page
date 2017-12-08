@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Login Form</title>
+        <!-- Import Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,400" rel="stylesheet">
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+
+        <!-- Making Buttons for login and sign up -->
+        <section>
+            <div class="container navigation">
+                <div class="row">
+                    <div class="col">
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-signin-tab" data-toggle="pill" href="#pills-signin" role="tab" aria-controls="pills-signin" aria-selected="true">sign in</a>
+                            </li>
+                            <li class="nav-item nav-button">
+                                <a class=" nav-link" id="pills-signup-tab" data-toggle="pill" href="#pills-signup" role="tab" aria-controls="pills-signup" aria-selected="false">sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <div class="tab-content" id="pills-tabContent">
+            <!-- Sign In Contents -->
+            <div class="tab-pane fade show active" id="pills-signin" role="tabpanel" aria-labelledby="pills-signin-tab">
+
+                <div class="mb-4">
+                    <img src="image/icon.svg" class="rounded mx-auto d-block" alt="profile-icon" style="width:250px">
+                </div>
+
+
+                <div class="container">
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-sm-10 col-md-10 col-lg-10 offset-md-1 offset-lg-1 offset-sm-1">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10 col-md-10 col-lg-10 offset-md-1 offset-lg-1 offset-sm-1">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-6 col-md-6 offset-sm-3 offset-md-3">
+                                <button type="submit" class="login-button btn btn-secondary btn-block">Log in</button>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
+
+                <div class="container text-center pb-5 form-footer">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#">Forget Password??</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sign Up Contents -->
+            <div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">
+
+                <form>
+                    <div class="form-row">
+                        <div class="col mb-2">
+                            <input type="text" class="form-control" placeholder="first name">
+                        </div>
+
+                        <div class="col mb-2">
+                            <input type="text" class="form-control" placeholder="last name">
+                        </div>
+
+                        <div class="col mb-2">
+                            <input type="text" class="form-control" placeholder="email">
+                        </div>
+
+                        <div class="col mb-2">
+                            <input type="text" class="form-control" placeholder="user name">
+                        </div>
+
+                        <div class="col mb-2">
+                            <input type="password" class="form-control" placeholder="password">
+                        </div>
+
+                        <div class="col mb-4">
+                            <input type="password" class="form-control" placeholder="re-type password">
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 offset-sm-3 offset-md-3 pb-5">
+                            <button type="submit" class="login-button btn btn-secondary btn-block">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        </section>
+
+
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+
+</html>
+
