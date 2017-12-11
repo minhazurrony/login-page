@@ -5,4 +5,4 @@
 
 - This Project was build while learning some HTML, CSS and Bootstrap.
 - This Page is completely Responsive and interactive.
-- You can Checkout Live demo here: https://eloquent-gates-3c0039.netlify.com
+- You can Checkout Live demo here: https://login-page.netlify.com/
